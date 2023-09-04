@@ -7,6 +7,13 @@
     <title>Portfolio</title>
     <link href="./assets/style.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .container {
+                @apply max-w-7xl mx-auto py-16 px-2 sm:px-6 lg:px-8;
+            }
+        }
+      </style>
     <script>
         tailwind.config = {
             theme: {
@@ -26,7 +33,7 @@
 
 <body class="">
     <section class="bg-grey text-light py-16">
-        <div class="max-w-7xl mx-auto py-16">
+        <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                 <div class="col-span-1 md:col-span-2">
                     <h2 class="text-7xl font-bold uppercase mb-2 font-serif" href="#">Michael Amiro</h2>
@@ -66,7 +73,7 @@
         </div>
     </section>
     <section class="bg-equity bg-opacity-90 min-h-[70vh] text-light">
-        <div class="max-w-7xl mx-auto py-16">
+        <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                     <h2 class="text-4xl mb-2 font-serif font-bold">Equity Mobile</h2>
@@ -94,7 +101,7 @@
         </div>
     </section>
     <section class="bg-tms bg-opacity-40 min-h-[70vh]">
-        <div class="container max-w-7xl mx-auto py-16">
+        <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div>
                     <h2 class="text-4xl mb-2 font-serif font-bold">Topical Memory System</h2>
@@ -127,7 +134,7 @@
         </div>
     </section>
     <section class="bg-haki bg-opacity-40 min-h-[70vh]">
-        <div class="container max-w-7xl mx-auto py-16">
+        <div class="container">
             <div class="grid grid-cols-6 items-center mb-16">
                 <div class="col-span-4 col-start-2">
                     <h2 class="text-4xl mb-2 font-serif font-bold">HAKI</h2>
@@ -153,7 +160,7 @@
         </div>
     </section>
     <footer class="bg-grey text-light">
-        <div class="container max-w-7xl mx-auto py-16">
+        <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div>
                     <h2 class="text-4xl mb-2 font-serif font-bold uppercase">Michael Amiro</h2>
