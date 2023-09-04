@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="./assets/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        tms: "#689f38",
+                        equity: "#a32a29",
+                        haki: "#ecba10",
+                        grey: "#2e2e2e",
+                        light: "#F7f7f7"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="">
+    <section class="bg-grey text-light py-16">
+        <div class="max-w-7xl mx-auto py-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="col-span-1 md:col-span-2">
+                    <h2 class="text-7xl font-bold uppercase mb-2 font-serif" href="#">Michael Amiro</h2>
+                    <p class="text-3xl font-bold opacity-50 italic mb-10">Software Engineer</p>
+                    <p class="mb-5 leading-8">
+                        I am an iOS developer. With a career spanning since
+                        2017, I have actively contributed to the success of remote fintech companies based in Kenya, as
+                        well as
+                        delivered impactful projects for clients across the world. Notably, I played a key role in
+                        developing
+                        and maintaining a highly popular banking app with millions of users across East and Central
+                        Africa.
+                    </p>
+                    <p class="mb-16 leading-8">
+                        I excel in ensuring seamless releases, implementing new features, and resolving bugs to enhance
+                        user experiences. I am committed to innovation and staying ahead in the dynamic tech industry.
+                        <br />
+                        Let’s connect and explore collaboration opportunities to create remarkable solutions together!
+                    </p>
+                    <div class="flex gap-32">
+                        <div class="group relative cursor-pointer">
+                            <a class="text-lg mb-2" href="https://" target="_blank">
+                                My Resume
+                            </a>
+                            <div class="bg-white h-[2.5px] w-0 group-hover:w-[96px] transition-all"></div>
+                        </div>
+                        <div class="group relative cursor-pointer">
+                            <a class="text-lg mb-2" href="mailto:odindo.michael@gmail.com" target="_blank">
+                                Reach me
+                            </a>
+                            <div class="bg-white h-[2.5px] w-0 group-hover:w-[80px] transition-all"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-equity bg-opacity-90 min-h-[70vh] text-light">
+        <div class="max-w-7xl mx-auto py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-4xl mb-2 font-serif font-bold">Equity Mobile</h2>
+                    <p class="mb-2 leading-8 text-lg">
+                        Equity is one of the biggest Banks in East and Central Africa serving markets in Kenya, Uganda,
+                        South Sudan, Tanzania, Rwanda and DRC making
+                        branch services accessible to customers anywhere whilst ensuring security and consistency.
+                    </p>
+                    <p class="mb-8 leading-8 text-lg">
+                        Working with collaborative cross-functional teams across the world we used MVVM-C architecture,
+                        Fastlane, Azure for
+                        version control and Project Management, RxSwift, Alamofire, Moya among other technologies to
+                        make the product the
+                        success it is, #4 in Finance Charts in Kenya with approximately 12,000 reviews with a rating of
+                        4.8/5.0.
+                    </p>
+                    <a class="bg-black px-8 py-3 text-light font-medium rounded-md"
+                        href="https://apps.apple.com/ke/app/tms.png/id1569017982">Equity
+                        Mobile</a>
+                </div>
+                <div class="flex items-center justify-center">
+                    <img class="w-[425px]" src="./assets/images/equity.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-tms bg-opacity-40 min-h-[70vh]">
+        <div class="container max-w-7xl mx-auto py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div>
+                    <h2 class="text-4xl mb-2 font-serif font-bold">Topical Memory System</h2>
+                    <p class="mb-2 leading-8 text-lg">
+                        Topical Memory System is a pack of 60 bible verses that aimed at sharing basic truths and daily
+                        applications for new believers. The TMS was developed and shared through The Navigators as a
+                        simple, easy-to-use system to help believers memorize key verses that point to basic truths and
+                        important instruction.
+                    </p>
+                    <p class="mb-2 leading-8 text-lg">
+                        I digitized this into an app using SwiftUI to boost scripture memory with daily reminders,
+                        streaks and memory
+                        games that aim to boost memory and retention of these basic truths. More reference from <a
+                            class="underline font-medium"
+                            href="https://www.navigators.org/resource/topical-memory-system/" target="_blank">The
+                            Navigators</a>
+                    </p>
+                    <p class="mb-8 leading-8 text-lg italic font-medium">
+                        Currently on testflight beta
+                    </p>
+                    <a class="bg-black px-8 py-3 text-light font-medium rounded-md"
+                        href="https://apps.apple.com/ke/app/tms.png/id1569017982">
+                        Topical Memory System
+                    </a>
+                </div>
+                <div class="flex items-center justify-center">
+                    <img class="w-[480px]" src="./assets/images/tms.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-haki bg-opacity-40 min-h-[70vh]">
+        <div class="container max-w-7xl mx-auto py-16">
+            <div class="grid grid-cols-6 items-center mb-16">
+                <div class="col-span-4 col-start-2">
+                    <h2 class="text-4xl mb-2 font-serif font-bold">HAKI</h2>
+                    <p class="mb-2 leading-8 text-lg">
+                        <b>HAKI</b>, is Swahili for rights — an app for training children across Africa on their
+                        rights.
+                    </p>
+                    <p class="mb-8 leading-8 text-lg">
+                        It takes children across 5 different modules that teaches them about their rights, how to
+                        protect their rights, how to identify child rights violations and what to do about it.
+                        It incorporates testing of children after each module/lesson to ensure knowledge transfer. A
+                        simple test containing 4
+                        questions from the previous module is used and a grade is assigned.
+                    </p>
+                    <a class="bg-black px-8 py-3 text-light font-medium rounded-md" href="https://haki.mtotonews.com">
+                        HAKI
+                    </a>
+                    <div class="flex items-center justify-center mt-16">
+                        <img class="h-[460px]" src="./assets/images/haki.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-grey text-light">
+        <div class="container max-w-7xl mx-auto py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h2 class="text-4xl mb-2 font-serif font-bold uppercase">Michael Amiro</h2>
+                    <p class="mb-8 leading-8 text-lg">
+                        I am passionate about building products that improve the day to day lives of regular real people
+                        and help them build a better tomorrow by getting knowledge, opportunities and the chance to
+                        change their own lives.
+                    </p>
+                    <div class="flex justify-between">
+                        <div class="group relative cursor-pointer">
+                            <a class="text-lg mb-2" href="https://" target="_blank">
+                                My Resume
+                            </a>
+                            <div class="bg-white h-[2.5px] w-0 group-hover:w-[96px] transition-all"></div>
+                        </div>
+                        <div class="group relative cursor-pointer">
+                            <a class="text-lg mb-2" href="mailto:odindo.michael@gmail.com" target="_blank">
+                                Reach me
+                            </a>
+                            <div class="bg-white h-[2.5px] w-0 group-hover:w-[80px] transition-all"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
